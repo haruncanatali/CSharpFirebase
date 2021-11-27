@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Xamarin Firebase CRUD</string>
+  <string name="action_settings">Settings</string>
+  <string-array name="siniflarElements">
+    <item>1.Sınıf</item>
+    <item>2.Sınıf</item>
+    <item>3.Sınıf</item>
+    <item>4.Sınıf</item>
+  </string-array>
+</resources>

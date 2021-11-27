@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorEdgeEffect"
+        android:elevation="4dp"
+        android:id="@+id/toolbar1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textColor="@android:color/black"
+        android:text="ÖĞRENCİ VERİTABANI"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:background="@android:color/white"
+        android:id="@+id/ogrenciListView"/>
+
+</LinearLayout>
